@@ -1,0 +1,39 @@
+/* Font import (Roboto) */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;1,100;1,300;1,700&display=swap&text=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.-!%3F%27%23%26%2F%3A()%2C");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  color: white;
+}
+
+html,
+body {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+
+  background: linear-gradient(to bottom left, #1f1f1f, #1a1a1a);
+
+  scroll-behavior: smooth;
+}
+
+p {
+  line-height: 1.6;
+}
+
+section {
+  height: 100vh;
+}
+
+section > div {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
