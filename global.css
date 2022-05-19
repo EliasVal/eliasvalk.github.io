@@ -1,11 +1,18 @@
 /* Font import (Roboto) */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;1,100;1,300;1,700&display=swap&text=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.-!%3F%27%23%26%2F%3A()%2C");
 
+@font-face {
+  font-family: "Cascadia Code";
+  src: url(/fonts/CascadiaCode.woff2) format("woff2"),
+    url(/fonts/CascadiaCode.woff2) format("woff");
+  /* font-weight: 400; */
+  font-style: normal;
+  font-display: swap;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
   font-family: "Roboto", sans-serif;
   font-weight: 100;
   color: white;
