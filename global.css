@@ -13,8 +13,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
-  font-weight: 100;
   color: white;
 }
 
@@ -27,6 +25,9 @@ body {
   background: linear-gradient(to bottom left, #1f1f1f, #1a1a1a);
 
   scroll-behavior: smooth;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
 }
 
 p {
